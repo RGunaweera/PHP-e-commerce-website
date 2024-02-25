@@ -54,8 +54,10 @@ echo "<h4>".$pagename."</h4>"; //display name of the page on the web page
             
             <tr>
                 <td colspan="2">
-                    <input type="submit" value="Sign Up" style='width: 100px; padding: 8px; border: 2px; border-radius: 15px; background-color: black; color: white; cursor: pointer;'>
-                    <input type="reset" value="Clear form" style='width: 100px; padding: 8px; border: 2px; border-radius: 15px; background-color: black; color: white; cursor: pointer;'>
+                <input type="submit" value="Sign Up" style='width: 100px; padding: 8px; border: 0.5px solid black; border-radius: 15px; background-color: black; color: white; cursor: pointer; transition: background-color 0.3s, color 0.3s;' onmouseover="this.style.backgroundColor='white'; this.style.color='black';" onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
+
+                <input type="reset" value="Clear From" style='width: 100px; padding: 8px; border: 0.5px solid black; border-radius: 15px; background-color: black; color: white; cursor: pointer; transition: background-color 0.3s, color 0.3s;' onmouseover="this.style.backgroundColor='white'; this.style.color='black';" onmouseout="this.style.backgroundColor='black'; this.style.color='white';">
+                    
                 </td>
             </tr>
         </table>
